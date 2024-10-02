@@ -335,12 +335,12 @@ input [type="checkbox"] {
     opacity: 0.7;
   }
    .paper {
-    height: 800px;
-    background-position: ;
-    background-attachment: fixed;
-    z-index: -1;
-    position: absolute;
-    opacity: 0.3;
+    height: 1000px;
+    max-width: 600px;
+  }
+  .paper2 {
+    height: 1000px;
+    max-width: 300px;
   }
   .date {
     font-size: 32px;

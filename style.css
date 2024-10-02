@@ -328,30 +328,31 @@ input [type="checkbox"] {
 }
 @media screen and (max-width: 600px) {
   .main {
-    margin: 20px;
+    margin: 30px;
     background-color: #f6f6f6;
-    padding: 100px 40px;
+    padding: 30px 10px;
     border-radius: 4%;
     opacity: 0.7;
   }
   .date {
     font-size: 32px;
+    padding: 1px;
   }
   .Invite {
-    font-size: 20px;
+    font-size: 12px;
     padding: 0px;
     margin: 14px;
   }
   .body {
-    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 145vh;
-    width: 73vh;
+    position: absolute;
+    height: 100vh;
+    width: 50vh;
   }
   .details {
-    font-size: 18px;
+    font-size: 14px;
     padding: 5px;
   }
   form {

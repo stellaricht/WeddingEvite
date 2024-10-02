@@ -334,6 +334,14 @@ input [type="checkbox"] {
     border-radius: 4%;
     opacity: 0.7;
   }
+   .paper {
+    height: 800px;
+    background-position: ;
+    background-attachment: fixed;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.3;
+  }
   .date {
     font-size: 32px;
     padding: 1px;

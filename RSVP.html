@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600;800&family=Parisienne&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@200;400;600;800&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="paper2" src="./paper.jpg" alt="./background.png" />
+    <a class="accomodation2" href="index.html"> Take me back </a>
+    <a href="mailto:lizzieandrichardwedding@gmail.com" class="emailus">
+      Email us
+    </a>
+    <form
+      class="main-form"
+      id="important"
+      action="https://formsubmit.co/lizzieandrichardwedding@gmail.com"
+      method="post"
+      enctype="multipart/formdata"
+    >
+      <fieldset>
+        <legend class="attending">Will you be attending?</legend>
+
+        <div class="options">
+          <input
+            type="radio"
+            id="yes"
+            name="option"
+            value="attending"
+            checked
+          />
+          <label for="yes">Joyfully Accepts</label>
+        </div>
+
+        <div class="options2">
+          <input type="radio" id="no" name="option" value="unable to attend" />
+          <label for="no">Regretfully Declines</label>
+        </div>
+
+        Your name(s):<br />
+        <input class="formboxes" type="text" name="name" /><br />
+        Your email:<br />
+        <input class="formboxes" type="email" name="email" required /><br />
+        Dietary requirements:<br />
+        <input class="formboxes" type="text" name="diet" /><br />
+        Your full address:<br />
+        <input
+          class="formboxes"
+          type="text"
+          name="address"
+          id="address"
+        /><br />
+
+        Song Request?<br />
+        <input class="formboxes" type="text" name="song" /><br />
+        <br />
+        <input class="send" type="submit" value="Send!" />
+      </fieldset>
+    </form>
+    <div class="details2">
+      <p class="hope">More details to follow</p>
+      <p class="hope">We hope you can make it!</p>
+    </div>
+  </body>
+</html>

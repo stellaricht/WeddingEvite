@@ -1,0 +1,386 @@
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playfair-display- {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.montecarlo-regular {
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.whisper-regular {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+img {
+  height: 1700px;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.3;
+}
+.paper {
+  height: 1700px;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.3;
+}
+.paper2 {
+  height: 1700px;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.05;
+}
+.main {
+  margin: 10px 80px 80px 80px;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 4%;
+  opacity: 0.7;
+}
+.dates {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: #353d51;
+  float: center;
+  opacity: 1;
+}
+.time {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  color: #353d51;
+  text-align: center;
+  opacity: 1;
+  font-size: 20px;
+  letter-spacing: 0.2rem;
+}
+.save {
+  font-family: "Playfair Display", serif;
+  text-align: right;
+  writing-mode: vertical-lr;
+  font-size: 20px;
+  color: #837e6a;
+  float: left;
+  opacity: 1;
+  padding-left: 5px;
+  padding-right: 0px;
+  margin: 0px;
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+.save2 {
+  font-family: "Playfair Display", serif;
+  text-align: right;
+  writing-mode: vertical-rl;
+  font-size: 20px;
+  color: #837e6a;
+  float: left;
+  opacity: 1;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin: 0px;
+}
+.line {
+  font-family: "Playfair Display", serif;
+  text-align: right;
+  font-size: 20px;
+  color: #837e6a;
+  float: right;
+  opacity: 1;
+}
+
+.date {
+  font-family: "Old Standard TT", serif;
+  font-size: 35px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px 0px 30px 0px;
+  opacity: 1;
+  font-weight: 100;
+  letter-spacing: 10px;
+  color: #353d51;
+}
+
+.Invite {
+  font-family: "Old Standard TT", serif;
+  text-align: center;
+  font-size: 17px;
+  color: #353d51;
+  letter-spacing: 0.1rem;
+  padding: 10px;
+}
+.names {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  text-align: center;
+  color: #353d51;
+  padding: 2px;
+  opacity: 1;
+  letter-spacing: 0.8rem;
+}
+.and {
+  font-family: "Whisper", cursive;
+}
+.location {
+  font-family: "Playfair Display", serif;
+  font-weight: 50;
+  font-size: 20px;
+  text-align: center;
+  color: #353d51;
+  opacity: 1;
+  letter-spacing: 0.2rem;
+}
+button {
+  background-color: #353d51;
+  font-family: "Playfair Display", serif;
+  border: none;
+  color: white;
+  padding: 13px 32px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+}
+.buttonrsvp {
+  text-align: center;
+}
+button:hover {
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+  background-color: #4d5364;
+}
+
+.information {
+  margin: 10px 80px 80px 80px;
+  background-color: #353d51;
+  padding: 20px;
+  border-radius: 1%;
+  opacity: 0.5;
+}
+.extrainfo {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  text-align: center;
+  color: #f9f8f2;
+  opacity: 1;
+  letter-spacing: 0.1rem;
+}
+.details {
+  font-family: "Old Standard TT", serif;
+  font-size: 14px;
+  text-align: center;
+  color: #353d51;
+  opacity: 1;
+  letter-spacing: 0.1rem;
+}
+.accomodation {
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+  text-align: right;
+  color: #f9f8f2;
+  opacity: 1;
+  letter-spacing: 0.1rem;
+}
+.accomodation:hover {
+  transition: ease-in-out 300ms;
+  color: #bebcaf;
+}
+.accomodation2 {
+  font-family: "Playfair Display", serif;
+  font-size: 13px;
+  float: left;
+  color: #353d51;
+  opacity: 1;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  margin: 20px;
+}
+.accomodation2:hover {
+  color: #14141f93;
+  transition: ease-in-out 300ms;
+}
+.emailus {
+  font-family: "Playfair Display", serif;
+  font-size: 13px;
+  float: right;
+  color: #353d51;
+  opacity: 1;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  margin: 20px;
+}
+.emailus:hover {
+  transition: ease-in-out 200ms;
+  color: #14141f93;
+}
+form {
+  font-family: "Playfair Display", serif;
+  font-weight: 10;
+  font-size: 15px;
+  text-align: center;
+  color: #353d51;
+  opacity: 1;
+  letter-spacing: 0.2rem;
+}
+.formboxes {
+  font-size: 14px;
+  margin: 7px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #353d51;
+  font-family: "Playfair Display", serif;
+}
+#address {
+  font-size: 14px;
+  margin: 7px;
+  padding: 8px;
+  height: 40px;
+  width: 400px;
+}
+#anythingelse {
+  height: 40px;
+  width: 400px;
+}
+.attending {
+  font-size: 20px;
+  padding: 10px;
+}
+.options {
+  margin: 2px;
+}
+.options2 {
+  margin: 20px;
+}
+fieldset {
+  border-radius: 20px;
+  margin: 10px;
+  border: 1px solid #353d51;
+}
+input [type="radio"],
+input [type="checkbox"] {
+  transform: scale(2);
+}
+.send {
+  background-color: #6a7797;
+  font-family: "Playfair Display", serif;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  margin: 0px 10px 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5%;
+  letter-spacing: 0.1rem;
+}
+.send:hover {
+  cursor: pointer;
+  transition: ease-in-out 300ms;
+  background-color: #4d5364;
+}
+
+.plusone {
+  font-size: 20px;
+  margin: 10px;
+}
+.church {
+  text-decoration: none;
+  color: #353d51;
+}
+.details2 {
+  border-radius: 4%;
+  opacity: 0.6;
+  color: #353d51;
+}
+
+.hope {
+  font-size: 20px;
+  text-align: center;
+  color: #353d51;
+  letter-spacing: 0.1rem;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    margin: 20px;
+    background-color: #f6f6f6;
+    padding: 100px 40px;
+    border-radius: 4%;
+    opacity: 0.7;
+  }
+  .date {
+    font-size: 32px;
+  }
+  .Invite {
+    font-size: 20px;
+    padding: 0px;
+    margin: 14px;
+  }
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 145vh;
+    width: 73vh;
+  }
+  .details {
+    font-size: 18px;
+    padding: 5px;
+  }
+  form {
+    font-family: "Playfair Display", serif;
+    font-weight: 10;
+    font-size: 12px;
+    text-align: center;
+    color: #353d51;
+    opacity: 1;
+    letter-spacing: 0.2rem;
+  }
+  .formboxes {
+    font-size: 12px;
+    margin: 7px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #353d51;
+    font-family: "Playfair Display", serif;
+  }
+  #address {
+    font-size: 14px;
+    margin: 7px;
+    padding: 8px;
+    height: 40px;
+    width: 180px;
+  }
+  .send {
+    padding: 8px 17px;
+    margin: 0px 10px 20px 10px;
+    font-size: 12px;
+  }
+}
